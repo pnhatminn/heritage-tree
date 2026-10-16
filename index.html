@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cội Nguồn</title>
+<meta name="description" content="Cội Nguồn – dựng cây gia phả của dòng họ bạn, lưu lại câu chuyện của từng người. Bản demo giao diện.">
+<meta name="theme-color" content="#7A0606">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect x='1' y='1' width='46' height='46' rx='9' fill='%23B22222'/%3E%3Cg fill='%23FFF4EC'%3E%3Ccircle cx='24' cy='15.5' r='7'/%3E%3Ccircle cx='16.2' cy='20.5' r='5.6'/%3E%3Ccircle cx='31.8' cy='20.5' r='5.6'/%3E%3C/g%3E%3Cpath d='M24 21v15M24 36c-2.6 0-5.4.7-7.6 1.9M24 36c2.6 0 5.4.7 7.6 1.9' fill='none' stroke='%23FFF4EC' stroke-width='2.8' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="sr-only" href="#main">Bỏ qua tới nội dung chính</a>
+<div id="app"></div>
+<div id="modal-root"></div>
+<div class="toasts" id="toasts" aria-live="polite"></div>
+<noscript><p style="padding:24px;font-family:sans-serif">Bản demo cần bật JavaScript để chạy.</p></noscript>
+
+<!-- Thứ tự nạp: tiện ích → dữ liệu → kho → bố cục cây → màn hình → khởi động -->
+<script src="assets/js/lunar.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/store.js"></script>
+<script src="assets/js/layout.js"></script>
+<script src="assets/js/tree-canvas.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/views/landing.js"></script>
+<script src="assets/js/views/auth.js"></script>
+<script src="assets/js/views/trees.js"></script>
+<script src="assets/js/views/tree.js"></script>
+<script>CN.start();</script>
+</body>
+</html>
